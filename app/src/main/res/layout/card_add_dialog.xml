@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/title_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title (up to 20 characters)"
+        android:maxLength="20"
+        android:layout_marginBottom="10px"/>
+
+    <EditText
+        android:id="@+id/description_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description (up to 2000 characters)"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:maxLength="2000"
+        android:layout_marginBottom="10px" />
+
+    <EditText
+        android:id="@+id/expiration_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expiration date"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:maxLength="30"
+        android:layout_marginBottom="10px" />
+
+    <EditText
+        android:id="@+id/assignee_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Assignee user"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:maxLength="50"
+        android:layout_marginBottom="10px" />
+
+    <EditText
+        android:id="@+id/author_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author user"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:maxLength="50"
+        android:layout_marginBottom="10px" />
+
+    <EditText
+        android:id="@+id/tags_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tags"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:maxLength="50"
+        android:layout_marginBottom="10px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
